@@ -23,41 +23,49 @@
 	color: gray;
 }
 .big_pic{
-	width: 100%;
+	max-width: 100%;
 	padding-top: 15px;
-	height: 240px;
+	height: auto;
 }
-.all_images{
-	
-	display: flex;
-	flex-wrap: wrap;
+
+.article_1{
+	display: inline-block;
+	max-width: 100%
+    height: auto;
+    margin-right: 5px;
+}
+.article_2{
+	display: inline-block;
+	max-width: 100%;
+    height: auto;
+    margin-right: 5px;
+}
+.article_3{
+	display: inline-block;
+	max-width: 100%;
+    height: auto;
+    margin-right: 5px;
 }
 .image1{
 	height: 100px;
-	width:	182px;
-	margin-right: 6px;
+	width:	180px;
+	margin-right: 7px;
 }
+
 .div2{
 	text-align: center;
-	font-size: 30px;
 }
 .div3{
 	text-align: center;
 }
-.work2{
-	margin-left: 12px;
-}
-.work3{
-	margin-left: 12px;
-}
 .image2{
-	height: 150px;
-	width:	300px;
+	height: 100px;
+	width:	180px;
 	margin-right: 7px;
 }
 .image3{
-	height: 150px;
-	width:	300px;
+	height: 100px;
+	width:	180px;
 }
 
 .right_col_name{
@@ -73,14 +81,21 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+.inner_nav{
+	height: 4px;
+	width: 100%;
+	background-color: #7d97ad; 
+}
 .body_pic{
-	border-color: #7d97ad;
+	
 	border-top-width: 4px;
-	border-top-style: solid;
+
 }
 .text{
 	color: gray;
 	font-family: "Times New Roman", Times, serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 .header_title{
 	font-family: "Times New Roman", Times, serif;
